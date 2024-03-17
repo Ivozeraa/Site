@@ -8,7 +8,7 @@
 }
 
 :root {
-  --cor-do-header: #25b338;
+  --cor-do-header: #25b338;  
   --cor-do-fundo: #f6fdff;
   --cor-do-titulo: #31953b;
   --cor-do-menu-1: #122d85;
@@ -23,10 +23,10 @@ body{
     width: 100%;
     height: 100vh;
 }
-header{
+.header{
     background: var(--cor-do-header);
     width: 100%;
-    height: 50px;
+    height: 64px;
     padding: 0 1rem;
     display: flex;
     justify-content: center;
@@ -47,6 +47,7 @@ header{
     height: 60px;
 }
 #header-title{
+    display: flex;
     color: white;
     font: 20pt Arial italic;
     font-family: Helvetica;
@@ -55,6 +56,12 @@ header{
     margin: auto;
     text-shadow: 2px 2px black;
 }
+.navbar{
+    background: rgb(212, 211, 211);
+    width: 100%;
+    height: 100px;
+    
+}
 .barra{
-    padding-bottom: 200px;
+    padding-top: 100px;
 }
