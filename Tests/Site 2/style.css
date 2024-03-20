@@ -63,6 +63,11 @@ body{
     padding-top: 6px;
     justify-content: flex-end;
 }
+.nav-menu{
+    display: flexbox;
+    justify-items: flex-start;
+
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -101,7 +106,7 @@ nav ul li a {
     background-color: #00ac25;
     border-top: 1px solid #666;
     min-width: 100%;
-    left: 80%; /* Alinha o submenu com a borda esquerda da barra de navegação */
+    left: 100%; /* Alinha o submenu com a borda esquerda da barra de navegação */
     transform: translateX(-80%);
     top: 30px; /* Posiciona o submenu abaixo da barra de navegação */
     white-space: nowrap;
@@ -127,7 +132,7 @@ nav ul li:hover > .submenu {
     display: block;
 }
 .barra{
-    padding-bottom: 5px;
+    padding-bottom: 9px;
 } 
 
 

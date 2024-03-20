@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --cor-do-header: #4a08c4;
+  --cor-do-fundo: #f6fdff;
+  --cor-do-titulo: #31953b;
+  --cor-do-menu-1: #122d85;
+  --cor-do-menu-2: #303030cc;
+  --cor-da-fonte-menu: #ffffff;
+  --cor-de-fundo-escola: #0000008c;
+  --cor-do-footer: #010141;
+}
+
+body{
+    background: var(--cor-do-fundo);
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    background: var(--cor-do-header);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    padding: 0 1rem;
+}
+
