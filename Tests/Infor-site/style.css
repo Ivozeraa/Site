@@ -126,7 +126,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .title-1 {
+  .title-1 + .card {
     color: #29005f;
     position: relative;
     text-align: center;
@@ -137,6 +137,7 @@ body {
 
 .card{
   background-color: #b8b8b8;
+  display: flex;
   height: 100px;
   margin: auto;
   width: 900px;
@@ -152,4 +153,15 @@ body {
   margin: auto;
   padding: 5px 10px 10px 10px;
   text-indent: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    margin-top: 0px; /* Ajustando para manter espaço entre o Title-1 e o card */
+    transition: margin-top 0.3s ease; /* Adicionando transição para suavizar o efeito */
+  }
+
+  .navbar.active + .card {
+    margin-top: 50; /* Ajustando a margem quando a navbar estiver ativa */
+  }
 }
