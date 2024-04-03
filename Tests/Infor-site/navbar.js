@@ -3,12 +3,9 @@ function toggleMenu() {
     navbarMenu.classList.toggle('active');
 
     var title1 = document.querySelector('.title-1');
-    var 
     if (navbarMenu.classList.contains('active')) {
-        title1.classList.add('navbar-active');
-        title1.style.top = '120px'; 
+        title1.style.marginTop = '120px'; // Alteração aqui para ajustar a margem superior
     } else {
-        title1.classList.remove('navbar-active');
-        title1.style.top = '0px';
+        title1.style.marginTop = '0px'; // Alteração aqui para ajustar a margem superior
     }
 }
