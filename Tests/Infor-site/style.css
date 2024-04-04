@@ -96,6 +96,7 @@ body {
     left: 0;
     background-color: #29005f;
     padding: 20px;
+    transition: ;
   }
 
   .navbar-menu.active {
