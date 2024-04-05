@@ -172,3 +172,23 @@ body {
     margin-top: 50px; /* Ajustando a margem quando a navbar estiver ativa */
   }
 }
+
+.eventos-curso{
+  text-align: center;
+  background-color: #9c69df;
+  margin-top: 40px;
+  width: 95%;
+  height: 3rem;
+  border-radius: 0 50px 50px 0;
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+}
+.events-title{
+  text-shadow: rgb(0, 0, 0) 1px 2px 1px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: justify;
+  text-transform: capitalize;
+  display: flex;
+  padding: 1rem 2rem;
+}
